@@ -1,0 +1,21 @@
+.User {
+    background-color: aliceblue;
+    color: #212121;
+    padding: 12px;
+    font-size: 24px;
+    display: inline-flex;
+    align-items: center;
+    margin: 4px;
+    gap: 8px
+}
+
+.User.selected {
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.User.superSelected {
+    background-color: #212121;
+    color: aliceblue;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
+}

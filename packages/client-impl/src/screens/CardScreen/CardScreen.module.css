@@ -1,0 +1,93 @@
+.CardScreen {
+    display: block;
+    position: relative;
+}
+
+/* .CardScreen__card {
+    border-radius: 16px;
+    background-color: antiquewhite;
+    padding: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+    float: left;
+    perspective: 500px;
+}
+
+.CardScreen__cardFront {
+
+} */
+
+.CardScreen__cardInner {
+    padding: 64px 16px;
+    border-radius: 16px;
+    border: 2px darkgray solid;
+    font-size: 24px;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 450px;
+    margin-left: -150px;
+    float: left;
+    perspective: 500px;
+    
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform .2s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+  .card.flip .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    font-size: 32px;
+    backface-visibility: hidden;
+    /* padding: 32px 16px; */
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  .back {
+    background: #03446A;
+    color: white;
+    transform: rotateY( 180deg );
+  }
+
+  .frontInner {
+    padding: 16px;
+    height: calc(100% - 32px);
+  }
+
+  .frontInner__inner {
+    border-radius: 12px;
+    border: 1px solid #282828;
+    padding: 16px;
+    height: calc(100% - 32px);
+  }
+
+  .backInner {
+    padding: 32px 16px;
+  }
