@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+.logo {
+    font-family: 'Sigmar', cursive;
+    color: #DEB887;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

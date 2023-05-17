@@ -1,0 +1,14 @@
+.Button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 28px;
+    font-family: 'Neucha', cursive;
+    background-color: orangered;
+    color: #fff
+}
+
+.Button--primary {
+    background-color: blueviolet;
+}
